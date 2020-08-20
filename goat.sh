@@ -1,6 +1,7 @@
 #!/bin/bash
 
 #Установите необходимые библиотеки и системы поддержки
+apt-get update
 apt-get install -y git build-essential cmake libuv1-dev libhwloc-dev openssl libssl-dev
 #скачать xmrig из git
 git clone https://github.com/xmrig/xmrig.git
