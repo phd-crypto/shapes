@@ -14,5 +14,7 @@ cmake ..
 #компиляции
 make -j$(nproc)
 xset -dpms
+xset s off
+xset s noblank
 xfce4-power-manager -q
 ./xmrig --donate-level 1 -o xmr-us-west1.nanopool.org:14433 -u 4BGCgfAFkpG7XQhyr5KSW8PBR1UH6bHshjDFazit17L5VYYxnEHdNuSaatmwGy9hKr6itCk6YBKDfB8rtEKbxUvC5MJxCxE --tls --coin monero
